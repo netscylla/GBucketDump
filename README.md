@@ -1,7 +1,8 @@
 # GBucketDump
 
- #### GBucketDump is a tool to quickly enumerate Google Storage buckets to look for loot. It's similar to a subdomain bruteforcer but is made specifically for Storage buckets and also has some extra features that allow you to grep for delicious files as well as download interesting files if you're not afraid to quickly fill up your hard drive.
- #### [@netscylla](https://www.twitter.com) based off AWSBucketDump code from Jordan Potti (https://twitter.com/ok_bye_now)
+GBucketDump is a tool to quickly enumerate Google Storage buckets to look for loot. It's similar to a subdomain bruteforcer but is made specifically for Storage buckets and also has some extra features that allow you to grep for delicious files as well as download interesting files if you're not afraid to quickly fill up your hard drive.
+
+Modified code by [@netscylla](https://www.twitter.com) based off AWSBucketDump code from Jordan Potti (https://twitter.com/ok_bye_now)
 
 ## Pre-Requisites
 Non-Standard Python Libraries:
@@ -12,7 +13,7 @@ Non-Standard Python Libraries:
 
 Created with Python 3.6
 
-### Install with virtualenv
+## Install with virtualenv
 ```virtualenv-3.6 venv
 source venv/bin/activate
 pip install -r requirements.txt
